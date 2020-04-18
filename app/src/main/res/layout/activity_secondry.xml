@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/done">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="205dp"
+        android:background="@drawable/border_e_edittext"
+        android:textColorHint="#74eaec"
+        android:hint="Enter your username" />
+
+    <EditText
+        android:id="@+id/paswd"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/id"
+        android:layout_alignLeft="@id/id"
+        android:layout_alignRight="@id/id"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border_e_edittext"
+        android:ems="10"
+        android:textColorHint="#74eaec"
+        android:hint="Enter tour password"
+        android:inputType="textPassword" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#f29974"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:layout_below="@id/paswd"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="40dp"
+        android:background="null"
+        android:text="Register"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgt"
+        android:textColor="#f29974"
+        android:layout_below="@id/paswd"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginRight="45dp"
+        android:background="null"
+        android:text="Forgot password"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/paswd"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="15dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+</RelativeLayout>
